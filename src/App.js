@@ -10,7 +10,7 @@ function App() {
 	const [progress, setProgress] = useState(10);
 	const [mode, setMode] = useState('light');
 	const pageSize = 20;
-	const apiKey = process.env.REACT_APP_NEWS_API;
+	const apiKey = "2722bc2cad064f6b8a4b8233532bec64";
 
 	//Dark-Mode Toggle
 	const toggleMode = () => {
